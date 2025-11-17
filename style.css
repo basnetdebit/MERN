@@ -55,3 +55,136 @@ line-height: 1.25;
     padding:10px;
     
 }
+
+/* diplay property */
+.container{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: block;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(31, 6, 216);
+    display:block ;
+    
+}
+.section{
+    display: flex;
+    direction: row; /* */
+    justify-content: space-between;
+    gap: 10px;
+   
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.item2{
+    height: 150px;
+    width: 100px;
+    background-color: rgb(0, 249, 149);
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(50, 11, 85);
+}
+
+.item4{
+    height: 150px;
+    width: 100px;
+    background-color: rgb(0, 249, 149);
+}
+.item5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 149, 11);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* List properties */
+
+.list{
+    list-style: square; /* Disc ,circle, none*/
+}
+
+/*Pseudo (fake) class properties*/
+.title:hover{
+    color: red;
+}
+
+.list li:first-child{
+    color: #f000f0;
+}
+.list li:nth-child(4) {
+    color: #00ccc5;
+}
+.list li:nth-child(odd) {
+    color: #ff0008;
+}
+
+input{
+    background-color: red;
+
+}
+input:disabled{
+    background-color: grey;
+}
+
+
+/* Units : px{pixcel, em(relative to parent, rem:( relative to root), vh(viewing height), vw(view width), in (inch), cm */
+.units{
+    color: #00ccc5;
+    font-size:1.5rem;
+}
+.unit-box {
+    font-size:20px;
+    width: 100%;
+    background-color: #f000f0;
+    height: 100vh;
+}
+/*overflow properties*/
+.overflow-box{
+    border: 3px solid;
+    width:20%;
+    height: 100px;
+    overflow: scroll;
+}
+.overflow-box p{
+    color: black;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+border: 1px solid black;
+padding: 0.5rem 0.5rem;
+}
+th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.5rem 0.5rem;
+    background-color: #ff0008;
+}
+tbody tr:first-child{
+ background-color: #f000f0;
+}
+tbody tr:nth-child(odd){
+    background-color: #00ccc5;
+}
+tbody tr:nth-child(2n){
+    background-color: #00ff55;
+}
+tbody tr:nth-child(3n+3){
+    background-color: #794bb2;
+}
+

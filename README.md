@@ -25,4 +25,9 @@
 2. text  
 3. font
 4. box-model: margin, padding, border
-5. 
+5. display 
+6. Flex
+7. List
+8. Pseudo-Class
+9. units
+10. overflow
