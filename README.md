@@ -31,3 +31,12 @@
 8. Pseudo-Class
 9. units
 10. overflow
+11. Table
+12. fore
+13. position
+14. grid
+15. icon
+16. backgraound-image
+17. responsive
+18. trabsfore
+19. animation

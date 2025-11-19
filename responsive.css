@@ -1,0 +1,46 @@
+:root {
+    --your-variable-name:"value";
+    --primary-color: #282828;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+ 
+}
+.box{
+    height:200px;
+    width:200px;
+    background-color:var(--primary-color);
+    border: 1px solid;
+}
+
+/* table screen view */
+@media (min-width:200px) and (max-width:768px) {
+.container {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  
+}
+}
+f
+/* table screen view */
+@media (min-width:769px) and (max-width:1265px) {
+.container {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+}
+}
