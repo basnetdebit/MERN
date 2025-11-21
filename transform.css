@@ -2,7 +2,35 @@
     height: 200px;
     width: 200px;
     background-color: aqua; /* translate, rotate, scale, shew*/
-    transform: translate(200px,200px) rotate(45deg) scale(1.5) skew(-45geg);
+    transform: translate(200px,200px) rotate(45deg) scale(1.5) skew(-45deg);
+}
 
+h1{
+transform: skew(-15deg) translate(100px) rotate(15deg);
+}
+.card{
+     height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    transform: translate(300px);
+    /* animation_name Duration Timing-function delay iteration-count */
+    animation: my_animation 5s ease-in-out infinite;
+    
+}
+@keyframes my_animation {
+    0% {
+        transform:  translate(300px) rotate(0);
+    }
+    25%{
+        transform: translate(500px);
+    }
+    50% {
+        transform:   translate(300px) rotate(90deg);
+ 
+    }
+     100% {
+        transform:   translate(300px) rotate(180deg);
 
+    }
+    
 }

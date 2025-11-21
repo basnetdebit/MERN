@@ -38,5 +38,13 @@
 15. icon
 16. backgraound-image
 17. responsive
-18. trabsfore
+18. transform
 19. animation
+20. Variable
+
+<!-- Tailwand Css  -->
+ 
+ - Css Framework
+ -used for building UI rapidly 
+ -Instead of writing CSS Cod
+
