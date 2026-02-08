@@ -42,6 +42,29 @@
 19. animation
 20. Variable
 
+1. Text elements 
+- h1 to h6 
+- p
+- strong
+- rm
+- sup
+- sub
+- pre
+- br 
+- hr 
+2. Lists 
+- ol : ordered list 
+- ul : Unordered list
+- li : List items 
+
+3. Links and media 
+- a 
+- img
+- video
+- iframe
+
+.
+
 <!-- Tailwand Css  -->
  
  - Css Framework

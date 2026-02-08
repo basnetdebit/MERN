@@ -37,10 +37,3 @@ header nav ul {
 }
 f
 /* table screen view */
-@media (min-width:769px) and (max-width:1265px) {
-.container {
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-
-}
-}

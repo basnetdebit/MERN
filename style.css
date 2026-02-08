@@ -1,190 +1,174 @@
-span{
-    font-family: sans-serif;
-    color: rgb(98, 255, 0);
-    font-weight: 100px;
+span {
+  font-family: sans-serif;
+  color: rgb(98, 255, 0);
+  font-weight: 100px;
 }
-h1{
-    color: rgb(69, 203, 71);
+h1 {
+  color: rgb(69, 203, 71);
 }
-.info{
-    color: blue;
+.info {
+  color: blue;
 }
+
 .title {
-    color:rgb(255, 255, 100); /* red, green, blue: 0-255 8 bit  */
-    color: #f000f0; /* HEX: 0-9 ,A ,B , C , D ,E ,F  */
-    background-color: aqua;
-    width: 50%;
+  color: rgb(255, 255, 100); /* red, green, blue: 0-255 8 bit  */
+  color: #f000f0; /* HEX: 0-9 ,A ,B , C , D ,E ,F  */
+  background-color: aqua;
+  width: 50%;
 }
 
 .description {
-    color: rgb(0, 107, 200);
-    font-size: 2rem;
+  color: rgb(0, 107, 200);
+  font-size: 2rem;
 }
-.title{
-    text-align: center;/* left , right, center, justify */ 
-    text-decoration: underline;
-    text-transform: uppercase; /* uppercase, lowercase, capitalize*/
-    word-spacing: 15px;
-    letter-spacing: 5px;
-    text-shadow: -10px -10px 10px black;
+.title {
+  text-align: center; /* left , right, center, justify */
+  text-decoration: underline;
+  text-transform: uppercase; /* uppercase, lowercase, capitalize*/
+  word-spacing: 15px;
+  letter-spacing: 5px;
+  text-shadow: -10px -10px 10px black;
 }
 
-.description{
-text-align: justify; 
-line-height: 1.25;   
+.description {
+  text-align: justify;
+  line-height: 1.25;
 }
 
 /* font properties */
-.description{
-    font-family:Arial, Helvetica, sans-serif;
-   font-size: 50px;
-   font-weight: bold;
-   font-style: italic;
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
 }
-
 
 /* Box-model  properties */
 
-.box{
-    height: 100px;
-    width: 100px;
-    background-color: hwb(328 57% 13%);
-    margin: 10px; /* All side same */
-    margin: 10px 15px; /* top-bottom left-right */
-    border: 5px solid rgb(244, 173, 173);/*  */
-    padding:10px;
-    
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: hwb(328 57% 13%);
+  margin: 10px; /* All side same */
+  margin: 10px 15px; /* top-bottom left-right */
+  border: 5px solid rgb(244, 173, 173); /*  */
+  padding: 10px;
 }
 
 /* diplay property */
-.container{
-    height: 100px;
-    width: 100%;
-    background-color: aquamarine;
-    display: block;
+.container {
+  height: 100px;
+  width: 100%;
+  background-color: aquamarine;
+  display: block;
 }
-.card{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(31, 6, 216);
-    display:block ;
-    
+.card {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(31, 6, 216);
+  display: block;
 }
-.section{
-    display: flex;
-    direction: row; /* */
-    justify-content: space-between;
-    gap: 10px;
-   
+.section {
+  display: flex;
+  direction: row; /* */
+  justify-content: space-between;
+  gap: 10px;
 }
-.item1{
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+.item1 {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
 }
 
-.item2{
-    height: 150px;
-    width: 100px;
-    background-color: rgb(0, 249, 149);
+.item2 {
+  height: 150px;
+  width: 100px;
+  background-color: rgb(0, 249, 149);
 }
-.item3{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(50, 11, 85);
+.item3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(50, 11, 85);
 }
 
-.item4{
-    height: 150px;
-    width: 100px;
-    background-color: rgb(0, 249, 149);
+.item4 {
+  height: 150px;
+  width: 100px;
+  background-color: rgb(0, 249, 149);
 }
-.item5{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(255, 149, 11);
+.item5 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 149, 11);
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 /* List properties */
 
-.list{
-    list-style: square; /* Disc ,circle, none*/
+.list {
+  list-style: square; /* Disc ,circle, none*/
 }
 
 /*Pseudo (fake) class properties*/
-.title:hover{
-    color: red;
+.title:hover {
+  color: red;
 }
 
-.list li:first-child{
-    color: #f000f0;
+.list li:first-child {
+  color: #f000f0;
 }
 .list li:nth-child(4) {
-    color: #00ccc5;
+  color: #00ccc5;
 }
 .list li:nth-child(odd) {
-    color: #ff0008;
+  color: #ff0008;
 }
 
-input{
-    background-color: red;
 
+input {
+  background-color: red;
 }
-input:disabled{
-    background-color: grey;
+input:disabled {
+  background-color: grey;
 }
-
 
 /* Units : px{pixcel, em(relative to parent, rem:( relative to root), vh(viewing height), vw(view width), in (inch), cm */
-.units{
-    color: #00ccc5;
-    font-size:1.5rem;
+.units {
+  color: #00ccc5;
+  font-size: 1.5rem;
 }
 .unit-box {
-    font-size:20px;
-    width: 100%;
-    background-color: #f000f0;
-    height: 100vh;
+  font-size: 20px;
+  width: 100%;
+  background-color: #f000f0;
+  height: 100vh;
 }
 /*overflow properties*/
-.overflow-box{
-    border: 3px solid;
-    width:20%;
-    height: 100px;
-    overflow: scroll;
+.overflow-box {
+  border: 3px solid;
+  width: 20%;
+  height: 100px;
+  overflow-x: hidden; /* visible, scroll, auto */
 }
-.overflow-box p{
-    color: black;
-}
-table{
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
+.overflow-box p {
+  color: black;
 }
 
-td {
-border: 1px solid black;
-padding: 0.5rem 0.5rem;
-}
-th{
-    border: 1px solid rgb(0, 0, 0);
-    padding: 0.5rem 0.5rem;
-    background-color: #ff0008;
-}
-tbody tr:first-child{
- background-color: #f000f0;
-}
-tbody tr:nth-child(odd){
-    background-color: #00ccc5;
-}
-tbody tr:nth-child(2n){
-    background-color: #00ff55;
-}
-tbody tr:nth-child(3n+3){
-    background-color: #794bb2;
+table {
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
 }
 
+table,th,td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+  align-items: center;
+}
+tbody tr:last-child{
+  background-color: #00ccc5;
+}
