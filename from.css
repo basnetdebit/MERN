@@ -20,8 +20,18 @@ input {
     border-radius: 3px; */
 }
 label {
+    font-family: sans-serif;
+    color: #4c4d4c;
+    margin-left: 0.15rem;
     
     /* display: block;
     margin-bottom: 0.5rem;
     font-weight: bold; */
+}
+
+input[type="radio"]{
+    width: auto;
+}
+input[type="checbox"]{
+    width: auto;
 }
